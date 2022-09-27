@@ -279,7 +279,7 @@ setAnnSpanFile =
 
 mkErr :: DynFlags -> SrcSpan -> String -> Errors
 #if __GLASGOW_HASKELL__ >= 810
-mkErr _df l s = unitBag (mkPlainMsgEnvelope l (text s))
+mkErr _df l s = singleMessage (mkPlainMsgEnvelope l (text s))
 #else
 mkErr = const (,)
 #endif

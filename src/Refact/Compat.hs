@@ -107,6 +107,7 @@ import GHC.Driver.Errors.Types
 import GHC.Driver.Session hiding (initDynFlags)
 import GHC.Parser.Annotation
 import GHC.Parser.Header (getOptions)
+import GHC.Types.Error
 import GHC.Types.Fixity  ( Fixity(..) )
 import GHC.Utils.Error hiding (mkErr)
 import GHC.Types.Name (nameOccName, occName, occNameString)

@@ -103,7 +103,7 @@ module Refact.Compat (
 import GHC.Data.Bag (unitBag, bagToList )
 import GHC.Data.FastString (FastString, mkFastString)
 import GHC.Data.StringBuffer (stringToStringBuffer)
-import GHC.Driver.Error.Types
+import GHC.Driver.Errors.Types
 import GHC.Driver.Session hiding (initDynFlags)
 import GHC.Parser.Annotation
 import GHC.Parser.Header (getOptions)
